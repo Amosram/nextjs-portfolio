@@ -2,7 +2,6 @@ import { cn } from "@/lib/utils";
 import React from "react";
 import { TextGenerateEffect } from "./TextGenerateEffect";
 import TailwindBtn from "../TailwindBtn";
-import { ColourfulText } from "./ColorfulText";
 
 export function DotBackgroundDemo() {
   return (
