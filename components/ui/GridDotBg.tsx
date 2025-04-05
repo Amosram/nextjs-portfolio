@@ -2,6 +2,7 @@ import { cn } from "@/lib/utils";
 import React from "react";
 import { TextGenerateEffect } from "./TextGenerateEffect";
 import TailwindBtn from "../TailwindBtn";
+import { ColourfulText } from "./ColorfulText";
 
 export function DotBackgroundDemo() {
   return (
@@ -18,10 +19,15 @@ export function DotBackgroundDemo() {
       <div className="pointer-events-none absolute -top-20 w-full inset-0 flex items-center flex-col justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black-100">
       </div>
       
-      <div className="flex flex-col gap-1 justify-center items-center px-4 lg:px-0">
-        <TextGenerateEffect words="Hi, I'm Amos Rama" duration={1}/>
-        <TextGenerateEffect  words="Full Stack Developer" duration={1}/>
-        <p className="text-lg text-center dark:text-neutral-300">Building cutting-edge web experiences that inspire and deliver.</p>
+      <div className="flex flex-col gap-1 md:justify-center md:items-center px-4 lg:px-0">
+        <h1 className="text-4xl md:text-6xl">Hi, I'm Amos Rama</h1>
+        <h1 className="flex gap-2 text-5xl md:text-6xl items-center mb-2">
+          <span className='hidden md:flex'>A</span>
+          <span>
+            <ColourfulText text='A Full Stack Developer'/>
+          </span>
+        </h1>
+        <p className="text-lg dark:text-neutral-300">Building cutting-edge web experiences that inspire and deliver.</p>
 
         <div className="flex gap-4">
           <TailwindBtn text="See My Work"/>
