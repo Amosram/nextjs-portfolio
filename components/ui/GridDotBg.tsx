@@ -1,0 +1,36 @@
+import { cn } from "@/lib/utils";
+import React from "react";
+import { TextGenerateEffect } from "./TextGenerateEffect";
+import TailwindBtn from "../TailwindBtn";
+import { ColourfulText } from "./ColorfulText";
+
+export function DotBackgroundDemo() {
+  return (
+    <div className="relative flex h-screen w-full items-center justify-center bg-white dark:bg-black-100">
+      <div
+        className={cn(
+          "absolute inset-0",
+          "[background-size:20px_20px]",
+          "[background-image:radial-gradient(#d4d4d4_1px,transparent_1px)]",
+          "dark:[background-image:radial-gradient(#404040_1px,transparent_1px)]",
+        )}
+      />
+      {/* Radial gradient for the container to give a faded look */}
+      <div className="pointer-events-none absolute -top-20 w-full inset-0 flex items-center flex-col justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black-100">
+      </div>
+      
+      <div className="flex flex-col gap-1 justify-center items-center px-4 lg:px-0">
+        <TextGenerateEffect words="Hi, I'm Amos Rama" duration={1}/>
+        <TextGenerateEffect  words="Full Stack Developer" duration={1}/>
+        <p className="text-lg text-center dark:text-neutral-300">Building cutting-edge web experiences that inspire and deliver.</p>
+
+        <div className="flex gap-4">
+          <TailwindBtn text="See My Work"/>
+          <TailwindBtn text="Donlwoad Resume"/>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+
