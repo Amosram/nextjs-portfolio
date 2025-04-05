@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import React from "react";
-import TailwindBtn from "../TailwindBtn";
+import TailwindBtn from "./TailwindBtn";
 import { ColourfulText } from "./ColorfulText";
 import Link from "next/link";
 
