@@ -19,7 +19,7 @@ export function DotBackgroundDemo() {
       <div className="pointer-events-none absolute -top-20 w-full inset-0 flex items-center flex-col justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black-100">
       </div>
       
-      <div className="z-20 flex flex-col gap-1 md:justify-center md:items-center px-4 lg:px-0">
+      <div className="z-20 flex flex-col gap-3 lg:gap-1 md:justify-center md:items-center px-4 lg:px-0">
         <h1 className="text-4xl md:text-6xl">{`Hi, I'm Amos Rama`}</h1>
         <h1 className="flex gap-2 text-5xl md:text-6xl items-center mb-2">
           <span>
