@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export function DotBackgroundDemo() {
   return (
-    <div className="relative flex h-screen w-full items-center justify-center bg-white dark:bg-black-100">
+    <div className="relative flex min-h-[90vh] lg:min-h-screen w-full items-center justify-center bg-white dark:bg-black-100">
       <div
         className={cn(
           "absolute inset-0",
