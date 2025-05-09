@@ -21,7 +21,7 @@ const Contact = () => {
                     <p className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20">
                     Contact Me
                          <p className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20 text-base">
-                           Have a project idea, collaboration request, or just want to chat about tech? I'd love to hear from you!
+                           Have a project idea, collaboration request, or just want to chat about tech? I&apos;d love to hear from you!
                         </p>
                     </p>
                    

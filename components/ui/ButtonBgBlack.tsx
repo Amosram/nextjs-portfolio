@@ -5,7 +5,7 @@ interface ButtonProps {
   className?: string;
 }
 
-const ButtonBgBlack = ({text, className}: ButtonProps) => {
+const ButtonBgBlack = ({text}: ButtonProps) => {
   return (
     <button className="shadow-[0_0_0_3px_#000000_inset] px-6 py-2 bg-black border border-black dark:border-white text-white rounded-lg font-semibold transform hover:-translate-y-1 transition duration-400 cursor-pointer">
         {text}
