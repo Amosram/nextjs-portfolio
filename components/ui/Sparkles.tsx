@@ -19,12 +19,6 @@ type ParticlesProps = {
   particleDensity?: number;
 };
 
-interface Sparkle {
-  id: string;
-  x: number;
-  y: number;
-}
-
 export const SparklesCore = (props: ParticlesProps) => {
   const {
     id,

@@ -69,7 +69,7 @@ const Skeleton = () => {
 
   useEffect(() => {
     animate(sequence, {
-      // @ts-expect-error
+      // @ts-expect-error TypeScript cannot infer the type here due to dynamic data
       repeat: Infinity,
       repeatDelay: 1,
     });
