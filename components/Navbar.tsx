@@ -27,15 +27,15 @@ const Navbar = () => {
       <Link href='/' className='rounded-[20px] py-[3px] shadow-sm px-4 logo'>AmosramDev</Link>
 
         <nav className='hidden lg:flex gap-1'>
-          <Link href='/' className='hover:gradient-button rounded-[20px] py-[3px] px-4 links'>Home</Link>
-          <Link href='/projects' className='rounded-[20px] py-[3px] px-4 links'>Projects</Link>
-          <Link href='/#about' className='rounded-[20px] py-[3px] px-4 links'>About</Link>
-          <Link href='/#contact' className='rounded-[20px] py-[3px] px-4 links'>Contact</Link>
+          <Link href='/' className='hover:gradient-button hover:text-neutral-400 rounded-[20px] py-[3px] px-4 links'>Home</Link>
+          <Link href='/#projects' className='rounded-[20px]  hover:text-neutral-400  py-[3px] px-4 links'>Projects</Link>
+          <Link href='/#about' className='rounded-[20px]  hover:text-neutral-400  py-[3px] px-4 links'>About</Link>
+          <Link href='/#contact' className='rounded-[20px]  hover:text-neutral-400  py-[3px] px-4 links'>Contact</Link>
         </nav>
       </header>
 
       <header className='flex text-gray-300 font-[600] lg:hidden justify-between items-center px-4 py-3 w-full rounded-[30px] mt-2 mx-auto relative'>
-        <Link href='/' className='rounded-md py-[3px] shadow-sm px-4 logo'>AmosramDev</Link>
+        <Link href='/' className='rounded-md py-[3px] shadow-sm lg:shadow-none px-4 logo'>AmosramDev</Link>
 
         {
           menuOpen && 
@@ -48,7 +48,7 @@ const Navbar = () => {
               <Link href='/#contact' onClick={toggleNav} className='sidebar-link rounded-[20px] py-[3px] px-4 hover:text-gray-400'>Contact</Link>
             </div>
 
-            <div className='flex items-center gap-4 text-lg md: sidebar-link'>
+            <div className='flex items-center gap-4 text-lg md: sidebar-link mb-4'>
               <Link href='#' className='w-6 h-6 flex justify-center items-center logo rounded-md hover:-translate-y-0.5 duration-150 hover:text-gray-400'>
                 <FaDiscord/>
               </Link>
