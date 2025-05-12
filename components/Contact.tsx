@@ -5,7 +5,6 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { RiTwitterXFill } from "react-icons/ri";
-
 import { FaInstagram } from "react-icons/fa";
 import Link from 'next/link';
 import { BackgroundGradientAnimation } from './ui/BgGradientAnimation';
@@ -37,7 +36,7 @@ const Contact = () => {
                         <div className='flex flex-col gap-2'>
                             <Link href="mailto:amosramdev@gmail.com" className='flex items-center gap-2'>
                                 <FaEnvelope className='text-2xl w-10 h-10 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
-                                <span className='text-neutral-400'>amosramdevgmail.com</span>
+                                <span className='text-neutral-400'>amosramdev@gmail.com</span>
                             </Link>
                             <Link href="tel:+254752943240" target='_blank' className='flex items-center gap-2'>
                                 <FaPhoneAlt className='text-2xl w-10 h-10 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>

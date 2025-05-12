@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import { SVGMaskEffectDemo } from "@/components/SVGMaskEffectDemo";
+import TechBlogs from "@/components/TechBlogs";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Skills/>
       <SVGMaskEffectDemo/>
       <Projects/>
+      <TechBlogs/>
       <Contact/>
       
     </main>

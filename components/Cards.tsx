@@ -1,14 +1,19 @@
 import React from "react";
 import { AnimatedTooltip } from "./ui/AnimatedTooltip2";
 import { ProjectOneIcons } from "@/data";
+import project1 from '../public/assets/images/project-1.png'
+import project2 from '../public/assets/images/project-2.png'
+import project3 from '../public/assets/images/project-3.png'
+import project4 from '../public/assets/images/project-4.png'
+
 
 export const cards = [
     {
-      description: "Lana Del Rey",
-      title: "Summertime Sadness",
-      src: "https://assets.aceternity.com/demos/lana-del-rey.jpeg",
+      description: "V1",
+      title: "Portforlio Site",
+      src: project1,
       ctaText: "Code",
-      ctaText2: "Live Demo",
+      ctaText2: "Preview",
       ctaLink: "https://ui.aceternity.com/templates",
       ctaLink2: "https://github.com",
       content: () => {
@@ -29,11 +34,11 @@ export const cards = [
       },
     },
     {
-      description: "Babbu Maan",
-      title: "Mitran Di Chhatri",
-      src: "https://assets.aceternity.com/demos/babbu-maan.jpeg",
+      description: "Device Specs",
+      title: "Lajest",
+      src: project2,
       ctaText: "Code",
-      ctaText2: "Live Demo",
+      ctaText2: "Preview",
       ctaLink: "https://ui.aceternity.com/templates",
       ctaLink2: "https://github.com",
       content: () => {
@@ -54,11 +59,11 @@ export const cards = [
     },
   
     {
-      description: "Metallica",
-      title: "For Whom The Bell Tolls",
-      src: "https://assets.aceternity.com/demos/metallica.jpeg",
+      description: "Eccomerce",
+      title: "Thinksmoothie",
+      src: project3,
       ctaText: "Code",
-      ctaText2: "Live Demo",
+      ctaText2: "Preview",
       ctaLink: "https://ui.aceternity.com/templates",
       ctaLink2: "https://github.com",
       content: () => {
@@ -78,11 +83,11 @@ export const cards = [
       },
     },
     {
-      description: "Lord Himesh",
-      title: "Aap Ka Suroor",
-      src: "https://assets.aceternity.com/demos/aap-ka-suroor.jpeg",
+      description: "Job Platform",
+      title: "Freelanx",
+      src: project4,
       ctaText: "Code",
-      ctaText2: "Live Demo",
+      ctaText2: "Preview",
       ctaLink: "https://ui.aceternity.com/templates",
       ctaLink2: "https://github.com",
       content: () => {
