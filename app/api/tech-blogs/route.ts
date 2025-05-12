@@ -51,12 +51,12 @@ async function fetchFromXAI(query: string): Promise<XAIResponse> {
       : [];
 
     return {
-      results: articles.map((article: string | number) => ({
-        title: (article as any).title || 'Untitled',
-        description: (article as any).description || (article as any).snippet || 'No description available',
-        url: (article as any).url || 'https://example.com',
-        source: (article as any).source || 'Unknown',
-        publishedAt: (article as any).publishedAt || new Date().toISOString(),
+      results: articles.map((article: string | number | boolean) => ({
+        // title: (article as any).title || 'Untitled',
+        // description: (article as any).description || (article as any).snippet || 'No description available',
+        // url: (article as any).url || 'https://example.com',
+        // source: (article as any).source || 'Unknown',
+        // publishedAt: (article as any).publishedAt || new Date().toISOString(),
       })),
     };
   } catch (error) {
