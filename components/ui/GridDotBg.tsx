@@ -44,7 +44,7 @@ export function DotBackgroundDemo() {
         {/* <p className="text-lg font-normal dark:text-neutral-400">for scalable, secure and robust web apps.</p> */}
 
         <div className="flex gap-4 mt-3 lg:mt-0">
-          <Link href='/#contact'>
+          <Link href='/#projects'>
             <ButtonBgWhite text='See My Work'/>
           </Link>
           <Link href='/#contact'>

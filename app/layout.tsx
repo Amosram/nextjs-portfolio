@@ -11,6 +11,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Amosram Dev",
   description: "Best portfolio website",
+  icons: {
+    icon: '/favicon.png'
+  }
 };
 
 export default function RootLayout({

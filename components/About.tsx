@@ -28,7 +28,7 @@ const About = () => {
             </p>
 
             <p>
-              When I’m not coding, you’ll find me playing football and watching youTube videos on technology updates. I also enjoy contributing to open-source projects and engaging with the tech community through meetups, social platforms like Linkedin or online forums like Stack Overflow.
+              When I’m not coding, you’ll find me playing football or watching tech related videos on youTube for latest technologies and some bloomberg business news. I also enjoy contributing to open-source projects and engaging with the tech community through meetups, social platforms like <span className='text-neutral-200'>Linkedin</span> or online forums like <span className='text-neutral-200'>Stack Overflow.</span>
             </p>
           </div>
         </div>

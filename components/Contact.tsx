@@ -8,20 +8,27 @@ import { RiTwitterXFill } from "react-icons/ri";
 import { FaInstagram } from "react-icons/fa";
 import Link from 'next/link';
 import { BackgroundGradientAnimation } from './ui/BgGradientAnimation';
+import { FaHandPointRight } from "react-icons/fa";
+import { FaHandPointDown } from "react-icons/fa";
+
 
 
 const Contact = () => {
   return (
-    <section className='px-4 lg:px-16 xl:px-32 pt-10' id='contact'>
+    <section className='px-4 lg:px-16 xl:px-32 pt-10 lg:mt-8' id='contact'>
 
-        <div className='grid grid-cols-1 md:grid-cols-2 items-center w-full  md:min-h-[70vh] min-h-[80vh] justify-between gap-8 rounded-xl border border-white/10 shadow-xl'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 items-center w-full   min-h-[80vh] md:min-h-[50vh] lg:min-h-[70vh] justify-between gap-8 rounded-xl border border-white/10 shadow-xl'>
             <BackgroundGradientAnimation>
                 <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-5xl text-center lg:text-7xl">
                     <p className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20">
                     Contact Me
                          <p className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20 text-base">
                            Have a project idea, collaboration request, or just want to chat about tech? I&apos;d love to hear from you!
+                            <FaHandPointRight className='hidden text-white/70 text-center w-full text-6xl hand lg:block'/>
+                            <FaHandPointDown className='text-white/70 text-center w-full text-6xl hand2 lg:hidden mt-10'/>
+
                         </p>
+                     
                     </p>
                    
                 </div>
@@ -49,7 +56,7 @@ const Contact = () => {
                     <p>or</p>
 
                     <div>
-                        <h4 className='mb-1'>Social</h4>
+                        <h4 className='mb-1'>Socials</h4>
                         <div className='flex flex-col gap-2'>
                             <Link href="#" className='flex hover:text-neutral-700 items-center gap-2'>
                                 <FaGithub className='text-2xl w-10 h-10 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>

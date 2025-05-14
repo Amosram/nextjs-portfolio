@@ -9,15 +9,13 @@ import TechBlogs from "@/components/TechBlogs";
 
 export default function Home() {
   return (
-    <main className="min-h-screen  text-neutral-300 ">
+    <main className="min-h-screen  text-neutral-300">
       <Hero/>
       <About/>
       <Skills/>
       <SVGMaskEffectDemo/>
       <Projects/>
-      <TechBlogs/>
-      <Contact/>
-      
+      <Contact/>  
     </main>
   );
 }

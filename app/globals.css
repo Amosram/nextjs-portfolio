@@ -263,3 +263,34 @@
       }
 }
 
+.hand {
+  animation: shift 1.5s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes shift {
+  0% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(40px);
+    opacity: 1;
+  }
+}
+
+.hand2 {
+  animation: shifting 1.5s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes shifting {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(40px);
+    opacity: 1;
+  }
+}

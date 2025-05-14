@@ -50,7 +50,7 @@ const Navbar = () => {
 
             <div className='flex flex-col items-center gap-4'>
               <Link href='/ ' onClick={toggleNav} className='sidebar-link hover:gradient-button hover:text-gray-400 rounded-[20px] py-[3px] px-4'>Home</Link>
-              <Link href='/projects' onClick={toggleNav} className='sidebar-link rounded-[20px] py-[3px] px-4 hover:text-gray-400'>Projects</Link>
+              <Link href='/#projects' onClick={toggleNav} className='sidebar-link rounded-[20px] py-[3px] px-4 hover:text-gray-400'>Projects</Link>
               <Link href='/#about' onClick={toggleNav} className='sidebar-link rounded-[20px] py-[3px] px-4 hover:text-gray-400'>About</Link>
               <Link href='/#contact' onClick={toggleNav} className='sidebar-link rounded-[20px] py-[3px] px-4 hover:text-gray-400'>Contact</Link>
             </div>
