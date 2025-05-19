@@ -10,6 +10,7 @@ import Link from 'next/link';
 import { BackgroundGradientAnimation } from './ui/BgGradientAnimation';
 import { FaHandPointRight } from "react-icons/fa";
 import { FaHandPointDown } from "react-icons/fa";
+import { FaCircle } from "react-icons/fa6";
 
 
 
@@ -58,19 +59,19 @@ const Contact = () => {
                     <div>
                         <h4 className='mb-1'>Socials</h4>
                         <div className='flex flex-col gap-2'>
-                            <Link href="#" className='flex hover:text-neutral-700 items-center gap-2'>
+                            <Link href="https://github.com/Amosram/" target='_blank' className='flex hover:text-neutral-700 items-center gap-2'>
                                 <FaGithub className='text-2xl w-10 h-10 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
                                 <span className='text-neutral-400'>Github</span>
                             </Link>
-                            <Link href="#" className='flex hover:text-neutral-700 items-center gap-2'>
+                            <Link href="https://ke.linkedin.com/in/amosram-developer1" target='_blank'  className='flex hover:text-neutral-700 items-center gap-2'>
                                 <FaLinkedin className='text-2xl w-10 h-10 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
                                 <span className='text-neutral-400'>LinkedIn</span>
                             </Link> 
-                            <Link href="#" className='flex hover:text-neutral-700 items-center gap-2'>
+                            <Link href="https://x.com/amosram012" target='_blank'  className='flex hover:text-neutral-700 items-center gap-2'>
                                 <RiTwitterXFill className='text-2xl w-10 h-10 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
                                 <span className='text-neutral-400'>Twitter</span>        
                             </Link>
-                            <Link href="#" className='flex hover:text-neutral-700 items-center gap-2'>
+                            <Link href="https://www.instagram.com/a.m.o.s.r.a.m" target='_blank'  className='flex hover:text-neutral-700 items-center gap-2'>
                                 <FaInstagram className='text-2xl w-10 h-10 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
                                 <span className='text-neutral-400'>Instagram</span>
                             </Link>
@@ -79,6 +80,14 @@ const Contact = () => {
                         </div>
 
                     </div>
+
+                    <p className='text-[12px] md:text-[15px] text-gray-400 flex items-center gap-2 order-1 md:order-1 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group flex justify-center'>
+                        <div className='relative flex items-center justify-center'>
+                        <FaCircle  className='animate-pulse text-[16px] text-green-800/70'/>
+                        <FaCircle  className='absolute text-[6px] text-green-500 animate-pulse-fast'/>
+                        </div>
+                        <span>Available for work & Project Contribution</span>
+                    </p>
                 
                 </div>    
                 

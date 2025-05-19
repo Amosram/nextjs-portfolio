@@ -240,3 +240,93 @@ export const ProjectOneIcons = [
     },
 
 ]   
+
+//projects tech stack
+export const portfolio1 = [
+  {
+      name: "HTML5",
+  },
+  {
+      name: "CSS3",
+  },
+  {
+      name: "JavaScript",
+  },
+  {
+    name: "Anime.js",
+  }
+]
+
+export const portfolio2 = [
+  {
+      name: "React",
+  },
+  {
+      name: "JavaScript",
+  },
+  {
+      name: "CSS3",
+  },
+  {
+    name:"Motion"
+  }
+  
+]
+
+export const portfolio3 = [
+  {
+      name: "Next.js",
+  },
+  {
+      name: "TypeScript",
+  },
+  {
+      name: "Tailwind CSS",
+  },
+]
+
+export const lajest = [
+  {
+      name: "React",
+  },
+  {
+      name: "JavaScript",
+  },
+  {
+      name: "Tailwind CSS",
+  },
+]
+
+export const tsaire = [
+  {
+      name: "React",
+  },
+  {
+      name: "JavaScript",
+  },
+  {
+      name: "Tailwind CSS",
+  },
+]
+
+export const freelanx = [
+  {
+      name: "React",
+  },
+  {
+      name: "JavaScript",
+  },
+  {
+      name: "Tailwind CSS",
+  },
+  {
+    name:"Express.js"
+  },
+  {
+    name:"Node.js"
+  },
+  {
+    name:"MongoDB"
+  }
+
+]

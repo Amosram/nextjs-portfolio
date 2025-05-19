@@ -32,8 +32,8 @@ export function DotBackgroundDemo() {
             height={30}
             className="rounded-full border-3 border-gray-400"
           />
-          <FlipWords words={["Habari,","Hi,","Hola,","Bonjour,", "Nǐ hǎo,", "Namaste,"]}/>
-          <p>I am Amos Rama</p>
+          <FlipWords words={["Habari, mimi ni Amos Rama ","Hi, I am Amos Rama","Hola, soy Amos Rama","Bonjour, je suis Amos Rama", "Nǐ hǎo, wǒ shì Āmòsī Lāmǎ", "Namaste, main Amos Rama hoon"]}/>
+          
         </div>
         <h1 className="text-4xl md:text-7xl md:text-center lg:max-w-[800px] leading-[1.2] lg:leading-[1] mb-3 lg:mb-0 text-neutral-200">Building Scalable & Intelligent Web Solutions</h1>
         <h1 className="flex gap-2 text-3xl md:text-4xl items-center mb-2">

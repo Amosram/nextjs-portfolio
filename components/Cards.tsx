@@ -1,6 +1,5 @@
 import React from "react";
-import { AnimatedTooltip } from "./ui/AnimatedTooltip2";
-import { ProjectOneIcons } from "@/data";
+import { freelanx, lajest, portfolio3, tsaire } from "@/data";
 import project2 from '../public/assets/images/project-2.png'
 import project3 from '../public/assets/images/project-3.png'
 import project4 from '../public/assets/images/project-4.png'
@@ -23,8 +22,12 @@ export const cards = [
              A robust, production ready portfolio powered by Next.js for server side rendering and optimized performance. Written in TypeScript for enhanced type safety and scalability, this version delivers a polished user experience with latest UI design and SEO capabilities.   
            
             </p>
-              <div className='flex w-full'>
-                <AnimatedTooltip items={ProjectOneIcons}/>
+              <div className='grid grid-cols-4 w-full gap-2'>
+                {
+                  portfolio3.map((item) => (
+                    <p key={item.name} className="bg-white/70 text-black text-sm text-center rounded-[20px] px-3 py-[3px]">{item?.name}</p>
+                  ))
+                }
               </div>
           </>
           
@@ -43,13 +46,16 @@ export const cards = [
         return (
             <>
             <p>
-            Lana Del Rey, an iconic American singer-songwriter, is celebrated for
-            her melancholic and cinematic music style. Born Elizabeth Woolridge
-            Grant in New York City, she has captivated audiences worldwide with
+              Lajest is a sleek and user-friendly application designed to display detailed device specifications in an intuitive format. Whether you're a tech enthusiast, developer, or casual user, Lajest provides a comprehensive overview of your device's hardware and software details, including processor, memory, storage, display, and operating system information.
+
            
             </p>
-              <div className='flex w-full'>
-                <AnimatedTooltip items={ProjectOneIcons}/>
+             <div className='grid grid-cols-4 w-full gap-2'>
+                {
+                  lajest?.map((item) => (
+                    <p key={item.name} className="bg-white/70 text-black text-sm text-center rounded-[20px] px-3 py-[3px]">{item?.name}</p>
+                  ))
+                }
               </div>
           </>
         );
@@ -68,13 +74,14 @@ export const cards = [
         return (
             <>
             <p>
-            Lana Del Rey, an iconic American singer-songwriter, is celebrated for
-            her melancholic and cinematic music style. Born Elizabeth Woolridge
-            Grant in New York City, she has captivated audiences worldwide with
-           
+             is a vibrant online platform dedicated to selling delicious smoothies and fresh fruit juices. With an intuitive interface, it offers a wide range of customizable, healthy drink options, highlighting natural ingredients and nutritional benefits. Perfect for health-conscious customers seeking refreshing, on-the-go beverages. 
             </p>
-              <div className='flex w-full'>
-                <AnimatedTooltip items={ProjectOneIcons}/>
+               <div className='grid grid-cols-4 w-full gap-2'>
+                {
+                  tsaire?.map((item) => (
+                    <p key={item.name} className="bg-white/70 text-black text-sm text-center rounded-[20px] px-3 py-[3px]">{item?.name}</p>
+                  ))
+                }
               </div>
           </>
         );
@@ -92,13 +99,14 @@ export const cards = [
         return (
             <>
             <p>
-            Lana Del Rey, an iconic American singer-songwriter, is celebrated for
-            her melancholic and cinematic music style. Born Elizabeth Woolridge
-            Grant in New York City, she has captivated audiences worldwide with
-           
+            Freelanx is an innovative job platform designed to connect freelancers with projects that match their expertise. It features a user-friendly interface for discovering, applying, and managing freelance opportunities, enabling professionals to highlight their skills and businesses to efficiently source top talent.
             </p>
-              <div className='flex w-full'>
-                <AnimatedTooltip items={ProjectOneIcons}/>
+             <div className='grid grid-cols-4 w-full gap-2'>
+                {
+                  freelanx?.map((item) => (
+                    <p key={item.name} className="bg-white/70 text-black text-sm text-center rounded-[20px] px-3 py-[3px]">{item?.name}</p>
+                  ))
+                }
               </div>
           </>
         );
