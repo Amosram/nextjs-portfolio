@@ -1,5 +1,5 @@
 import React from "react";
-import { freelanx, lajest, portfolio1, portfolio2, portfolio3, ProjectOneIcons, tsaire } from "@/data";
+import { freelanx, lajest, portfolio1, portfolio2, portfolio3, tsaire } from "@/data";
 import project1 from '../public/assets/images/project-1.png'
 import project2 from '../public/assets/images/project-2.png'
 import project3 from '../public/assets/images/project-3.png'
@@ -102,7 +102,7 @@ export const allProjectsCard = [
         return (
             <>
             <p>
-              Lajest is a sleek and user-friendly application designed to display detailed device specifications in an intuitive format. Whether you're a tech enthusiast, developer, or casual user, Lajest provides a comprehensive overview of your device's hardware and software details, including processor, memory, storage, display, and operating system information.
+              Lajest is a sleek and user-friendly application designed to display detailed device specifications in an intuitive format. Whether you&apos;re a tech enthusiast, developer, or casual user, Lajest provides a comprehensive overview of your device&apos;s hardware and software details, including processor, memory, storage, display, and operating system information.
            
             </p>
               <div className='grid grid-cols-4 w-full gap-2'>

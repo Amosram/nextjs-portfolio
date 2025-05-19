@@ -46,7 +46,7 @@ export const cards = [
         return (
             <>
             <p>
-              Lajest is a sleek and user-friendly application designed to display detailed device specifications in an intuitive format. Whether you're a tech enthusiast, developer, or casual user, Lajest provides a comprehensive overview of your device's hardware and software details, including processor, memory, storage, display, and operating system information.
+              Lajest is a sleek and user-friendly application designed to display detailed device specifications in an intuitive format. Whether you&apos;re a tech enthusiast, developer, or casual user, Lajest provides a comprehensive overview of your device&apos;s hardware and software details, including processor, memory, storage, display, and operating system information.
 
            
             </p>
