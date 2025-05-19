@@ -281,7 +281,7 @@ export const portfolio3 = [
       name: "TypeScript",
   },
   {
-      name: "Tailwind CSS",
+      name: "Tailwind",
   },
 ]
 
@@ -293,7 +293,7 @@ export const lajest = [
       name: "JavaScript",
   },
   {
-      name: "Tailwind CSS",
+      name: "Tailwind",
   },
 ]
 
@@ -305,7 +305,7 @@ export const tsaire = [
       name: "JavaScript",
   },
   {
-      name: "Tailwind CSS",
+      name: "Tailwind",
   },
 ]
 
@@ -317,7 +317,7 @@ export const freelanx = [
       name: "JavaScript",
   },
   {
-      name: "Tailwind CSS",
+      name: "Tailwind",
   },
   {
     name:"Express.js"
