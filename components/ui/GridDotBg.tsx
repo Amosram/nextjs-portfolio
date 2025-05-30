@@ -24,13 +24,13 @@ export function DotBackgroundDemo() {
       </div>
       
       <div className="z-20 flex flex-col uppercase gap-3 lg:gap-5 md:justify-center md:items-center px-4 lg:px-0">
-        <div className="flex gap-2 items-center text-sm text-lg">
+        <div className="flex gap-2 items-center text-sm border border-white/30 rounded-full pr-2 shadow-md w-fit bg-black-100/10 backdrop-blur-sm">
           <Image
             src={bizPic}
             alt="Project 1 Screenshot"
             width={30}
             height={30}
-            className="rounded-full border-3 border-gray-400"
+            className="rounded-full border-2 border-white/30 object-cover"
           />
           <FlipWords words={["Habari, mimi ni Amos Rama ","Hi, I am Amos Rama","Hola, soy Amos Rama","Bonjour, je suis Amos Rama", "Nǐ hǎo, wǒ shì Āmòsī Lāmǎ", "Namaste, main Amos Rama hoon"]}/>
           
