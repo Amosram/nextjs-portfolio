@@ -23,25 +23,25 @@ const Footer = () => {
         <p className='text-[8px] md:text-[15px] order-3 md:order-2 text-gray-400 '>&copy;{date} Amosramdev.com All Rights Reserved</p>
 
         <p className='flex hover:text-neutral-700 items-center gap-2 order-1 md:order-1'>
-          <FaLocationDot className='text-2xl w-8 h-8 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
+          <FaLocationDot className='text-2xl w-8 h-8 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
           Nairobi, Kenya
         </p> 
 
         <div className='flex items-center gap-2 text-lg md: sidebar-link order-2 md:order-3'>
             <Link href="https://github.com/Amosram/" target='_blank'  className='flex hover:text-neutral-700 items-center gap-2'>
-                <FaGithub className='text-2xl w-8 h-8 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
+                <FaGithub className='text-2xl w-8 h-8 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
       
             </Link>
             <Link href="https://ke.linkedin.com/in/amosram-developer1" target='_blank'  className='flex hover:text-neutral-700 items-center gap-2'>
-                <FaLinkedin className='text-2xl w-8 h-8 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
+                <FaLinkedin className='text-2xl w-8 h-8 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
               
             </Link> 
             <Link href="https://x.com/amosram012" target='_blank'  className='flex hover:text-neutral-700 items-center gap-2'>
-                <RiTwitterXFill className='text-2xl w-8 h-8 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
+                <RiTwitterXFill className='text-2xl w-8 h-8 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
             
             </Link>
             <Link href="https://www.instagram.com/a.m.o.s.r.a.m" target='_blank'  className='flex hover:text-neutral-700 items-center gap-2'>
-                <FaInstagram className='text-2xl w-8 h-8 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
+                <FaInstagram className='text-2xl w-8 h-8 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
              
             </Link>
         </div>

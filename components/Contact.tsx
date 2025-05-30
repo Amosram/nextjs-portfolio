@@ -43,11 +43,11 @@ const Contact = () => {
                         <h4 className='mb-1'>Email & Phone</h4>
                         <div className='flex flex-col gap-2'>
                             <Link href="mailto:amosramdev@gmail.com" className='flex items-center gap-2'>
-                                <FaEnvelope className='text-2xl w-10 h-10 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
+                                <FaEnvelope className='text-2xl w-10 h-10 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)]  shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
                                 <span className='text-neutral-400'>amosramdev@gmail.com</span>
                             </Link>
                             <Link href="tel:+254752943240" target='_blank' className='flex items-center gap-2'>
-                                <FaPhoneAlt className='text-2xl w-10 h-10 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
+                                <FaPhoneAlt className='text-2xl w-10 h-10 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)]  shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
                                 <span className='text-neutral-400'>+254 752 943 240</span>
                             </Link>
                     </div>
@@ -60,19 +60,19 @@ const Contact = () => {
                         <h4 className='mb-1'>Socials</h4>
                         <div className='flex flex-col gap-2'>
                             <Link href="https://github.com/Amosram/" target='_blank' className='flex hover:text-neutral-700 items-center gap-2'>
-                                <FaGithub className='text-2xl w-10 h-10 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
+                                <FaGithub className='text-2xl w-10 h-10 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)]  shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
                                 <span className='text-neutral-400'>Github</span>
                             </Link>
                             <Link href="https://ke.linkedin.com/in/amosram-developer1" target='_blank'  className='flex hover:text-neutral-700 items-center gap-2'>
-                                <FaLinkedin className='text-2xl w-10 h-10 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
+                                <FaLinkedin className='text-2xl w-10 h-10 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)]  shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
                                 <span className='text-neutral-400'>LinkedIn</span>
                             </Link> 
                             <Link href="https://x.com/amosram012" target='_blank'  className='flex hover:text-neutral-700 items-center gap-2'>
-                                <RiTwitterXFill className='text-2xl w-10 h-10 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
+                                <RiTwitterXFill className='text-2xl w-10 h-10 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)]  shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
                                 <span className='text-neutral-400'>Twitter</span>        
                             </Link>
                             <Link href="https://www.instagram.com/a.m.o.s.r.a.m" target='_blank'  className='flex hover:text-neutral-700 items-center gap-2'>
-                                <FaInstagram className='text-2xl w-10 h-10 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
+                                <FaInstagram className='text-2xl w-10 h-10 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)]  shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'/>
                                 <span className='text-neutral-400'>Instagram</span>
                             </Link>
 
@@ -81,7 +81,7 @@ const Contact = () => {
 
                     </div>
 
-                    <p className='text-[12px] md:text-[15px] text-gray-400 flex items-center gap-2 order-1 md:order-1 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group flex justify-center'>
+                    <p className='text-[12px] md:text-[15px] text-gray-400 flex items-center gap-2 order-1 md:order-1 text-neutral-400 p-2 lg:-8 rounded-full border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)]  shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group flex justify-center'>
                         <div className='relative flex items-center justify-center'>
                         <FaCircle  className='animate-pulse text-[16px] text-green-800/70'/>
                         <FaCircle  className='absolute text-[6px] text-green-500 animate-pulse-fast'/>
