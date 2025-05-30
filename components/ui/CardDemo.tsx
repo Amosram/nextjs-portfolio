@@ -81,10 +81,10 @@ const Skeleton = () => {
           <ClaudeLogo className="h-4 w-4 " />
         </Container>
         <Container className="h-12 w-12 circle-2">
-          <IoLogoJavascript className="h-6 w-6 dark:text-white  rounded-full" />
+          <IoLogoJavascript className="h-6 w-6 text-white  rounded-full" />
         </Container>
         <Container className="circle-3">
-          <Image src={bizPic} className="h-12 w-12 dark:text-white rounded-full"  alt="amos-image"/>
+          <Image src={bizPic} className="h-12 w-12 text-white rounded-full"  alt="amos-image"/>
         </Container>
         <Container className="h-12 w-12 circle-4">
           <FaPython className="h-6 w-6   rounded-full" />
@@ -131,7 +131,7 @@ const Sparkles = () => {
             borderRadius: "50%",
             zIndex: 1,
           }}
-          className="inline-block bg-black dark:bg-white"
+          className="inline-block bg-white"
         ></motion.span>
       ))}
     </div>
@@ -148,7 +148,7 @@ export const Card = ({
   return (
     <div
       className={cn(
-        " w-full mx-auto p-4 lg:p-8 rounded-xl border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group",
+        " w-full mx-auto p-4 lg:p-8 rounded-xl border border-[rgba(255,255,255,0.10)] bg-[rgba(40,40,40,0.70)] shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group",
         className
       )}
     >
@@ -167,7 +167,7 @@ export const CardTitle = ({
   return (
     <h3
       className={cn(
-        "text-lg font-semibold text-gray-800 dark:text-white py-2",
+        "text-lg font-semibold text-white py-2",
         className
       )}
     >
@@ -186,7 +186,7 @@ export const CardDescription = ({
   return (
     <p
       className={cn(
-        "text-sm font-normal text-neutral-600 dark:text-neutral-400 max-w-sm",
+        "text-sm font-normal text-neutral-400 max-w-sm",
         className
       )}
     >
@@ -210,7 +210,7 @@ export const CardSkeletonContainer = ({
         "h-[15rem] md:h-[20rem] rounded-xl z-40",
         className,
         showGradient &&
-          "bg-neutral-300 dark:bg-[rgba(40,40,40,0.70)] [mask-image:radial-gradient(50%_50%_at_50%_50%,white_0%,transparent_100%)]"
+          "bg-[rgba(40,40,40,0.70)] [mask-image:radial-gradient(50%_50%_at_50%_50%,white_0%,transparent_100%)]"
       )}
     >
       {children}

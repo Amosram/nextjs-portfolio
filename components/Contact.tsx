@@ -18,7 +18,7 @@ const Contact = () => {
   return (
     <section className='px-4 lg:px-16 xl:px-32 pt-10 lg:mt-8' id='contact'>
 
-        <div className='grid grid-cols-1 lg:grid-cols-2 items-center w-full   min-h-[80vh] md:min-h-[50vh] lg:min-h-[70vh] justify-between gap-8 rounded-xl border border-white/10 shadow-xl'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 items-center w-full min-h-[80vh] md:min-h-[50vh] lg:min-h-[80vh] justify-between gap-8 rounded-xl border border-white/10 shadow-xl'>
             <BackgroundGradientAnimation>
                 <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-5xl text-center lg:text-7xl">
                     <p className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20">

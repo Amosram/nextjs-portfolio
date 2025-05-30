@@ -20,8 +20,8 @@ const Skills = () => {
         </div>
 
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-4 md:auto-rows-[18rem] md:grid-cols-3">
-          <div className="group/bento shadow-input row-span-1 flex flex-col space-y-4 rounded-xl border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.40)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group p-4 md:col-span-2">
-            <h2 className='font-semibold bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white flex gap-2 items-center justify-center text-center mb-6'>Frontend Technologies</h2>
+          <div className="group/bento shadow-input row-span-1 flex flex-col space-y-4 rounded-xl border border-[rgba(255,255,255,0.10)] bg-[rgba(40,40,40,0.40)] shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group p-4 md:col-span-2">
+            <h2 className='font-semibold bg-clip-text text-transparent bg-gradient-to-b  from-neutral-800 via-white to-white flex gap-2 items-center justify-center text-center mb-6'>Frontend Technologies</h2>
             
               <div className='grid grid-cols-3 md:grid-cols-5 gap-x-6 gap-y-6 justify-between'>
                 {
@@ -36,8 +36,8 @@ const Skills = () => {
               
           </div>
 
-          <div className="group/bento shadow-input row-span-1 flex flex-col space-y-4 rounded-xl border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.40)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group p-4 md:col-span-1">
-            <h2 className='font-semibold bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white flex gap-2 items-center justify-center mb-6'>Backend Technologies</h2>
+          <div className="group/bento shadow-input row-span-1 flex flex-col space-y-4 rounded-xl border border-[rgba(255,255,255,0.10)] bg-[rgba(40,40,40,0.40)] shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group p-4 md:col-span-1">
+            <h2 className='font-semibold bg-clip-text text-transparent bg-gradient-to-b  from-neutral-800 via-white to-white flex gap-2 items-center justify-center mb-6'>Backend Technologies</h2>
             <div className='grid grid-cols-3 gap-x-6 gap-y-6 justify-between'>
                 {
                   backendIcons?.map((item, index) => (
@@ -50,15 +50,15 @@ const Skills = () => {
               </div>
           </div>
 
-          <div className="group/bento shadow-input row-span-1 flex flex-col space-y-4 rounded-xl border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.40)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group p-4 md:col-span-1">
-            <h2 className='font-semibold bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white flex gap-2 items-center justify-center lg:text-center'>Soft Skills</h2>
+          <div className="group/bento shadow-input row-span-1 flex flex-col space-y-4 rounded-xl border border-[rgba(255,255,255,0.10)] bg-[rgba(40,40,40,0.40)] shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group p-4 md:col-span-1">
+            <h2 className='font-semibold bg-clip-text text-transparent bg-gradient-to-b  from-neutral-800 via-white to-white flex gap-2 items-center justify-center lg:text-center'>Soft Skills</h2>
             
             <SoftSkills/>
          
           </div>
 
-          <div className="group/bento shadow-input row-span-1 flex flex-col space-y-4 rounded-xl border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.40)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group p-4 md:col-span-2">
-            <h2 className='font-semibold bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white flex gap-2 items-center justify-center'>Other Tools & Languages</h2>
+          <div className="group/bento shadow-input row-span-1 flex flex-col space-y-4 rounded-xl border border-[rgba(255,255,255,0.10)] bg-[rgba(40,40,40,0.40)] shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group p-4 md:col-span-2">
+            <h2 className='font-semibold bg-clip-text text-transparent bg-gradient-to-b  from-neutral-800 via-white to-white flex gap-2 items-center justify-center'>Other Tools & Languages</h2>
 
             <div className='grid grid-cols-3 md:grid-cols-5 gap-x-6 gap-y-6 justify-between'>
                 {

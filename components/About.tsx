@@ -14,7 +14,7 @@ const About = () => {
             <CardDemo/>
           </div>
 
-          <div className='flex flex-col gap-2 text-neutral-400 w-full mx-auto py-4 px-4 lg:-8 rounded-xl border border-[rgba(255,255,255,0.10)] dark:bg-[rgba(40,40,40,0.70)] bg-gray-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'>
+          <div className='flex flex-col gap-2 text-neutral-400 w-full mx-auto py-4 px-4 lg:-8 rounded-xl border border-[rgba(255,255,255,0.10)] bg-[rgba(40,40,40,0.70)]  shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group'>
             <p>
               I’m Amos, a passionate <span className='text-neutral-200'>Junior Software Engineer</span> specializing in <span className='text-neutral-200'>Full Stack Web Development.</span> With a strong foundation in <span className='text-neutral-200'>MERN Stack</span> (MongoDB, Express.js, React.js, Node.js) and expertise in <span className='text-neutral-200'>Next.js</span>, Tailwind CSS, and dynamic UI design, I craft intuitive, scalable, and efficient web applications
             </p>

@@ -10,7 +10,7 @@ import { FlipWords } from "./FlipWords";
 
 export function DotBackgroundDemo() {
   return (
-    <div className="relative flex min-h-[80vh] lg:min-h-screen w-full items-center justify-center bg-white dark:bg-black-100">
+    <div className="relative flex min-h-[80vh] lg:min-h-screen w-full items-center justify-center bg-black-100">
       <div
         className={cn(
           "absolute inset-0",
@@ -20,7 +20,7 @@ export function DotBackgroundDemo() {
         )}
       />
       {/* Radial gradient for the container to give a faded look */}
-      <div className="pointer-events-none absolute -top-20 w-full inset-0 flex items-center flex-col justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black-100">
+      <div className="pointer-events-none absolute -top-20 w-full inset-0 flex items-center flex-col justify-center  [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] bg-black-100">
       </div>
       
       <div className="z-20 flex flex-col uppercase gap-3 lg:gap-5 md:justify-center md:items-center px-4 lg:px-0">

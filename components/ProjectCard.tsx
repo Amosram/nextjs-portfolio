@@ -71,7 +71,7 @@ export function ExpandableCardDemo() {
             <motion.div
               layoutId={`card-${active.title}-${id}`}
               ref={ref}
-              className="w-full max-w-[500px]  h-full md:h-fit md:max-h-[95%]  flex flex-col bg-white dark:bg-neutral-900 sm:rounded-3xl overflow-hidden border border-white/10"
+              className="w-full max-w-[500px]  h-full md:h-fit md:max-h-[95%]  flex flex-col bg-neutral-900 sm:rounded-3xl overflow-hidden border border-white/10"
             >
               <motion.div layoutId={`image-${active.title}-${id}`}>
                 <Image
@@ -149,7 +149,7 @@ export function ExpandableCardDemo() {
             layoutId={`card-${card.title}-${id}`}
             key={card.title}
             onClick={() => setActive(card)}
-            className="p-4 flex flex-col  hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-xl cursor-pointer border border-white/10"
+            className="p-4 flex flex-col  hover:bg-neutral-800 rounded-xl cursor-pointer border border-white/10"
           >
             <div className="flex gap-4 flex-col  w-full">
               <motion.div layoutId={`image-${card.title}-${id}`}>
