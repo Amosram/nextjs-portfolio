@@ -63,7 +63,7 @@ export const cards = [
     },
   
     {
-      description: "Eccomerce",
+      description: "Eccommerce",
       title: "Thinksmoothie",
       src: project3,
       ctaText: "Code",

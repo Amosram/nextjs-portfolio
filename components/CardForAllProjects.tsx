@@ -118,7 +118,7 @@ export const allProjectsCard = [
     },
   
     {
-      description: "Eccomerce",
+      description: "Eccommerce",
       title: "Thinksmoothie",
       src: project3,
       ctaText: "Code",

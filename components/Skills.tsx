@@ -13,7 +13,7 @@ const Skills = () => {
   return (
     <section className='min-h-screen px-4 lg:px-16 xl:px-32'>
       <div>
-          <Title text='What I bring to the table' coverText='SKILLS'/>
+          <Title text='Explore my' coverText='SKILLS'/>
         
         <div className='flex flex-row items-center justify-center mb-10 w-full'>
           <AnimatedTooltip items={icons}/>
