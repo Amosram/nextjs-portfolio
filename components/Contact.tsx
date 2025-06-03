@@ -7,19 +7,18 @@ import { FaLinkedin } from "react-icons/fa";
 import { RiTwitterXFill } from "react-icons/ri";
 import { FaInstagram } from "react-icons/fa";
 import Link from 'next/link';
-import { BackgroundGradientAnimation } from './ui/BgGradientAnimation';
 import { FaHandPointRight } from "react-icons/fa";
 import { FaHandPointDown } from "react-icons/fa";
 import { FaCircle } from "react-icons/fa6";
-
 
 
 const Contact = () => {
   return (
     <section className='px-4 lg:px-16 xl:px-32 pt-10 lg:mt-8' id='contact'>
 
-        <div className='grid grid-cols-1 lg:grid-cols-2 items-center w-full min-h-[80vh] md:min-h-[50vh] lg:min-h-[80vh] justify-between gap-8 rounded-xl border border-white/10 shadow-xl'>
-            <BackgroundGradientAnimation>
+        <div className="bg-[url('/assets/images/contact-bg.jpg')] bg-cover bg-center bg-no-repeat w-full min-h-[80vh] md:min-h-[50vh] lg:min-h-[80vh] rounded-xl">
+            <div className="grid grid-cols-1 lg:grid-cols-2 items-center w-full min-h-[80vh] md:min-h-[50vh] lg:min-h-[80vh] justify-between gap-8 rounded-xl border border-white/10 shadow-xl  bg-black-100/30 backdrop-blur-lg">
+            {/* <BackgroundGradientAnimation>
                 <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-5xl text-center lg:text-7xl">
                     <p className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20">
                     Contact Me
@@ -33,7 +32,16 @@ const Contact = () => {
                     </p>
                    
                 </div>
-            </BackgroundGradientAnimation>
+            </BackgroundGradientAnimation> */}
+            <div className='flex flex-col items-center justify-center text-center lg:text-left px-4 lg:px-0'>
+                <h2 className='font-semibold bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-white to-white text-5xl my-6'>Let&apos;s Connect</h2> 
+                <p className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20 text-base text-center mx-3">
+                    Have a project idea, collaboration request, or just want to chat about tech? I&apos;d love to hear from you!
+                    <FaHandPointRight className='hidden text-white/70 text-center w-full text-6xl hand lg:block'/>
+                    <FaHandPointDown className='text-white/70 text-center w-full text-6xl hand2 lg:hidden mt-10'/>
+
+                </p>
+            </div>
 
             <div className='py-12 lg:py-0 lg:min-h-[80vh] px-4'>
                 <h2 className='font-semibold bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white text-4xl my-6'>Reach Me Via</h2>    
@@ -91,6 +99,7 @@ const Contact = () => {
                 
                 </div>    
                 
+            </div>
             </div>
         </div>
       

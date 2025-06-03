@@ -6,7 +6,7 @@ import Title from './Title';
 const About = () => {
   return (
     <section className='min-h-screen px-4 lg:16 xl:px-32 lg:pt-8 ' id='about'>
-      <div>
+      <div className='border-b border-b-white/10 rounded-[20px] pb-20'>
         <Title text='explore more' coverText='ABOUT ME' className='text-center'/>
 
         <div className='flex flex-col lg:flex-row gap-8 mt-4'>
