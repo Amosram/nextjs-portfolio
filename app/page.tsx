@@ -13,7 +13,6 @@ export default function Home() {
       <Hero/>
       <About/>
       <Skills/>
-      {/* <SVGMaskEffectDemo/> */}
       <Services/>
       <Projects/>
       <AnimatedTestimonialsDemo/>

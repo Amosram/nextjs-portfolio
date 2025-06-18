@@ -15,7 +15,7 @@ import { GrOptimize } from "react-icons/gr";
 
 const Services = () => {
   return (
-     <section className='min-h-screen px-4 lg:16 xl:px-32 lg:pt-8 mb-6' id='services'>
+     <section className='min-h-screen px-4 xl:px-32 lg:pt-8 mb-6' id='services'>
         <div className='flex flex-col gap-4 border-b border-b-white/10 rounded-[20px] pb-20'>
             <Title text='my' coverText='SERVICES' className='text-center'/>
             <div className='mt-6 flex flex-col gap-6 lg:gap-8'>

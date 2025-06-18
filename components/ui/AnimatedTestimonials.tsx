@@ -1,6 +1,6 @@
 "use client";
 
-import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
+import { IconArrowLeft, IconArrowRight, IconQuote } from "@tabler/icons-react";
 import { motion, AnimatePresence } from "motion/react";
 
 import { useEffect, useState } from "react";
@@ -10,6 +10,7 @@ type Testimonial = {
   name: string;
   designation: string;
   src: string;
+  icon?: string;
 };
 export const AnimatedTestimonials = ({
   testimonials,
@@ -118,6 +119,7 @@ export const AnimatedTestimonials = ({
             <p className="text-sm text-neutral-500">
               {testimonials[active].designation}
             </p>
+            <IconQuote className="mt-4 h-8 w-8 text-neutral-400" />
             <motion.p className="mt-8 text-lg text-neutral-300">
               {testimonials[active].quote.split(" ").map((word, index) => (
                 <motion.span
