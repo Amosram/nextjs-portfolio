@@ -24,10 +24,6 @@ const About = () => {
             </p>
 
             <p>
-              Driven by continuous learning and innovation, I stay ahead of the latest technologies to build future-ready solutions. Let’s collaborate and turn great ideas into high-performance digital experiences!
-            </p>
-
-            <p>
              When I&apos;m not architecting solutions in code, I&apos;m either on the football field honing teamwork and strategy or diving into the latest tech deep-dives on YouTube. To stay ahead of the curve, I follow market trends and tech innovations through Bloomberg. My passion for technology extends into the community; I regularly contribute to open-source projects and participate in knowledge-sharing on platforms like Stack Overflow and LinkedIn.
             </p>
           </div>
