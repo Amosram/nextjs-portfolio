@@ -1,12 +1,40 @@
 import React from "react";
-import { freelanx, lajest, portfolio3, tsaire } from "@/data";
+import { freelanx, lajest, portfolio3, tsaire, tausiApp } from "@/data";
 import project2 from '../public/assets/images/project-2.png'
 import project3 from '../public/assets/images/project-3.png'
 import project4 from '../public/assets/images/project-4.png'
 import project6 from '../public/assets/images/project-6.png'
+import project7 from '../public/assets/images/project-7.png'
 
 
 export const cards = [
+    {
+      description: "Beauty Services Platform",
+      title: "Tausi App Limited",
+      src: project7,
+      ctaText: "Code",
+      ctaText2: "Preview",
+      ctaLink: "https://tausiapp.com/",
+      ctaLink2: "/not-found",
+      content: () => {
+        return (
+          <>
+            <p>
+             A robust, production-ready platform for Tausi App Limited, built with Next.js for superior performance and server-side rendering. Engineered in TypeScript for maximum reliability and scalability, it delivers a polished user experience that empowers and connects Africa&apos;s beautiful community through innovative BeautyTech. 
+           
+            </p>
+              <div className='grid grid-cols-4 w-full gap-2'>
+                {
+                  tausiApp?.map((item) => (
+                    <p key={item.name} className="bg-white/70 text-black text-sm text-center rounded-[20px] px-3 py-[3px]">{item?.name}</p>
+                  ))
+                }
+              </div>
+          </>
+          
+        );
+      },
+    },
     {
       description: "v3",
       title: "Portforlio Site",
@@ -14,7 +42,7 @@ export const cards = [
       ctaText: "Code",
       ctaText2: "Preview",
       ctaLink: "https://amosramdev.vercel.app/",
-      ctaLink2: "https://github.com/Amosram/nextjs-portfolio",
+      ctaLink2: "/not-found",
       content: () => {
         return (
           <>

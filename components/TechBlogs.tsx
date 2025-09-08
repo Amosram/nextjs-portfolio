@@ -33,7 +33,7 @@
 //     } catch (err) {
 //       setError("Failed to fetch blogs. Please try again.");
 //       console.error(err);
-//     } finally {
+//     // } finally {
 //       setIsLoading(false);
 //     }
 //   };

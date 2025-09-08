@@ -24,7 +24,7 @@ export function AnimatedTestimonialsDemo() {
     },
     {
       quote:
-        "Any fool can write code that a computer can understand. Good programmers write code that humans can understand",
+        "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
       name: "Martin Fowler",
       designation: "Author and Software Engineer",
       src: MartinF.src,

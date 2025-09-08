@@ -330,3 +330,21 @@ export const freelanx = [
   }
 
 ]
+export const tausiApp = [
+  {
+      name: "React",
+  },
+  {
+      name: "Next.js",
+  },
+  {
+      name: "Typescript",
+  },
+  {
+    name:"Tailwind"
+  },
+  {
+    name:"AWS"
+  },
+
+]

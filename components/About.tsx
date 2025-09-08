@@ -28,7 +28,7 @@ const About = () => {
             </p>
 
             <p>
-              When I’m not coding, you’ll find me playing football or watching tech related videos on youTube for latest technologies and some bloomberg business news. I also enjoy contributing to open-source projects and engaging with the tech community through meetups, social platforms like <span className='text-neutral-200'>Linkedin</span> or online forums like <span className='text-neutral-200'>Stack Overflow.</span>
+             When I&apos;m not architecting solutions in code, I&apos;m either on the football field honing teamwork and strategy or diving into the latest tech deep-dives on YouTube. To stay ahead of the curve, I follow market trends and tech innovations through Bloomberg. My passion for technology extends into the community; I regularly contribute to open-source projects and participate in knowledge-sharing on platforms like Stack Overflow and LinkedIn.
             </p>
           </div>
         </div>

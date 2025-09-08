@@ -22,7 +22,7 @@ const Services = () => {
                 <div className='flex flex-col gap-4 lg:flex-row justify-between'>
                     <div className='flex-2 flex flex-col gap-4 '>
                         <h2 className='font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-white to-white text-3xl text-center lg:text-left'>Digital Solutions</h2> 
-                        <p className='text-neutral-400 text-xl text-center lg:text-left'>Transforming businesses with innovative, scalable web and app solutions that captivate users and drive success through cutting-edge technology</p>
+                        <p className='text-neutral-400 text-xl text-center lg:text-left'>Transforming businesses with innovative, scalable web and app solutions that captivate users and drive success through cutting-edge technology.</p>
 
                         <div className='grid grid-cols-1 md:grid-cols-2 gap-2'>
                             <p className='px-2 py-[4px] border border-gray-200/10 text-center text-sm rounded-xl'>Front-End Development</p>
@@ -58,7 +58,7 @@ const Services = () => {
                         </h3>
                         <hr className='bg-white/10 w-full h-[0.5px] border-none my-2'/>
                         <p className='text-neutral-400'>
-                            I create responsive, intuitive user interfaces using modern frameworks like React, Next.js, and Tailwind CSS to ensure a seamless user experience
+                            I create responsive, intuitive user interfaces using modern frameworks like React, Next.js, and Tailwind CSS to ensure a seamless user experience.
                         </p>
                     </div>
                     <div className='border border-white/10 rounded-xl p-4 flex flex-col gap-4 shadow-lg hover:shadow-xl transition-shadow duration-300  hover:bg-neutral-800 hover:cursor-default'>
